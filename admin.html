@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Goods</a></li>
+                <li><a href="bag.html">Bag</a><span id="bagGoods"></span></li>
+                <li><a href="admin.html">Admin</a></li>
+                <li><a href="order.html">Orders</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form id="addForm">
+            <input type="text" id="productName">
+            <input type="text" id="productDescription">
+            <input type="number" id="productPrice">
+            <input type="text" id="storeName">
+            <input type="text" id="storeAddress">
+            <button>Add to Goods</button>
+        </form>
+        <ul id="list"></ul>
+    </main>
+    <div id="changeContainer">
+        <form id="changeForm">
+            <input type="text" id="NameOfPoductChange">
+            <input type="text" id="DescriptionOfProductChange">
+            <input type="number" id="PriceOfProductChange">
+            <input type="text" id="storeNameChange">
+            <input type="text" id="storeAddressChange">
+            <button class="buttonChange">Change</button>
+        </form>
+    </div>
+    <script src="admin.js"></script>
+</body>
+</html> 
+
